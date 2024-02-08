@@ -13,6 +13,7 @@ Here we provide a chrome extension that allows calling an extension via a simula
 
 > Install Host App
 - Go into the folder **host_app**, inside the folder **AutoLoadExt** and run **native_host**
+- Go into the folder **host_app**, inside the folder **AutoLoadExt** and double click on **install_host**
 - Go to Chrome and **Open [the extensions page](chrome://extensions)** in your browser: `chrome://extensions`. 
 - If you did not do it already, **toggle the "developer mode"**. This is usually a toggle button at the top right of the extensions page.
 - Click the button **_load unpacked extension_**.
