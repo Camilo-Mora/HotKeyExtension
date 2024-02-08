@@ -1,0 +1,1 @@
+{"SCTRL":true,"SSHIFT":true,"SALT":false,"SCODE":65}«
