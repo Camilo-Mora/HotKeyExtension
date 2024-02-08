@@ -20,7 +20,9 @@ Here we provide a chrome extension that allows calling an extension via a simula
 - In the window that pops up, **select the folder that contains this extension**, then **click _ok_**.
 - Upom clicking on the app, you can manually set any hotkeys that trigger other extensions.
 - **Done!**
-This extension will be called automatically upon loading any future page.
+This extension will be called automatically upon loading any future page, and simulate the pressing of hotkeys used to open any other extension.
+
+To modify the hotkeys for the app you want to open, simpky press the Hotkeey extension, enter the set of keys that trigger the other extension, click save.
 
 ## About the project
 Generally, chrome extensions cannot call or access other extensions.
