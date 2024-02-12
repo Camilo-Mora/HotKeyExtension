@@ -1,3 +1,14 @@
+chrome.runtime.onInstalled.addListener(async () => {
+    var hotkey = {
+        kctrl: true,
+        kshift: true,
+        kalt: false,
+        ktext: 'S'
+      }
+      chrome.storage.sync.set({ 'key': hotkey }, function() {
+      });
+  });
+
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if (changeInfo.status === 'complete') {
        
